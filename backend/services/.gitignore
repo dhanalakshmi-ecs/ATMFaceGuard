@@ -1,0 +1,37 @@
+
+# Python temporary files
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Private configuration and secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Personal biometric data
+dataset/
+faces/
+known_faces/
+face_encodings/
+fingerprints/
+uploads/
+
+# Private databases and logs
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# Editor and Windows files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.bak
